@@ -1,0 +1,228 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 970px;
+}
+.h3,
+h3 {
+  font-size: 24px;
+}
+.h1,
+.h2,
+.h3,
+h1,
+h2,
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.tab-content {
+  margin: 50px 0 20px 0;
+}
+.tab-content > .active {
+  display: block;
+  background-color: #ffe6cc;
+}
+.fade.in {
+  opacity: 1;
+}
+.fade {
+  opacity: 0;
+  -webkit-transition: opacity 0.15s linear;
+  -o-transition: opacity 0.15s linear;
+  transition: opacity 0.15s linear;
+}
+.media:first-child {
+  margin-top: 0;
+}
+.media,
+.media-body {
+  overflow: hidden;
+  zoom: 1;
+  margin-top: 20px;
+}
+.media-left,
+.media > .pull-left {
+  padding-right: 10px;
+}
+.pull-left {
+  float: left !important;
+}
+a {
+  color: #337ab7;
+  text-decoration: none;
+}
+a {
+  background-color: transparent;
+}
+.media-body,
+.media-left,
+.media-right {
+  display: table-cell;
+  vertical-align: top;
+}
+.media-body {
+  width: 10000px;
+}
+.media-heading {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.h4,
+h4 {
+  font-size: 18px;
+}
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+.media .media-heading a {
+  color: #022235;
+  font-size: 21px;
+  text-transform: uppercase;
+}
+.media .meta-data {
+  margin: 0 0 7px 0;
+}
+#tab1.tab-pane .media .longDate {
+  border-right: none;
+}
+.media .longDate {
+  background: transparent url(../images/ico-calendar.png) no-repeat left top;
+  padding: 0 10px 0 24px;
+  border-right: 1px solid #eb5b4c;
+  margin-right: 3px;
+}
+.media .longDate,
+.media .timeEl {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 14px;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 700;
+  color: #636465;
+  text-transform: uppercase;
+  min-height: 16px;
+}
+p {
+  margin: 0 0 10px;
+}
+
+.media > .pull-left {
+  margin-right: 29px;
+}
+.media .dateEl {
+  display: inline-block;
+  text-align: center;
+  background: #f9f9f9;
+  padding: 18px 0 25px 0;
+  color: #173d51;
+  font-size: 16px;
+  font-weight: 700;
+  width: 113px;
+  text-transform: uppercase;
+}
+.media .dateEl em {
+  display: block;
+  color: #662d91;
+  font-size: 42px;
+  line-height: 1;
+  margin-bottom: 5px;
+  font-style: normal;
+}
+.media .media-heading a {
+  color: #022235;
+  font-size: 21px;
+  text-transform: uppercase;
+}
+.media .meta-data {
+  margin: 0 0 7px 0;
+}
+.media .longDate,
+.media .timeEl {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 14px;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-weight: 700;
+  color: #636465;
+  text-transform: uppercase;
+  min-height: 16px;
+}
+.media .longDate {
+  background: transparent url(../images/ico-calendar.png) no-repeat left top;
+  padding: 0 10px 0 24px;
+  border-right: 1px solid #eb5b4c;
+  margin-right: 3px;
+}
+#tab1.tab-pane .media .longDate {
+  border-right: none;
+}
+.blogPost--small {
+  color: #7c7b7b;
+  margin: 20px 30px 40px 0;
+}
+.blogPost--small .media > .pull-left {
+  margin-right: 25px;
+}
+.blogPost--small a {
+  color: #662d91;
+}
+.blogPost--small .date,
+.blogPost--small .dateEl2 {
+  display: block;
+  text-align: center;
+  padding: 18px 0 25px 0;
+  color: #fff;
+  background: #662d91;
+  width: 113px;
+}
+.blogPost--small .date span,
+.blogPost--small .dateEl2 span {
+  display: inline-block;
+  font-size: 42px;
+  line-height: 1;
+  letter-spacing: 0em;
+  text-indent: -0.1em;
+  color: #fff;
+  font-weight: bold;
+}
+.blogPost--small .date small,
+.blogPost--small .dateEl2 small {
+  display: block;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.blogPost--small h4 {
+  margin: 0 0 12px 0;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+.btn-default {
+  color: #fff;
+  font-size: 14px;
+  background-color: #662d91;
+  border-radius: 0px;
+}

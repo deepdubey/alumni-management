@@ -1,0 +1,346 @@
+body {
+  height: 100%;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+#regMsg {
+  width: 80%;
+  position: absolute;
+  background-color: green;
+  margin: 2px 8%;
+  top: 0;
+  z-index: 110;
+  font-family: "Montserrat", sans-serif;
+  padding: 8px;
+  color: white;
+  font-size: 16px;
+}
+/* #regMsg p{
+    font-family: 'Montserrat', sans-serif;
+    margin: 6px;
+    color: white;
+    font-size: 16px;
+} */
+.swiper-container {
+  margin: 200px auto 0px auto;
+  width: 100%;
+  height: auto;
+}
+.swiper-wrapper {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+.swiper-slide {
+  height: 100%;
+  font-size: 18px;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.swiper-pagination {
+  margin: -100px 0px 0px 10%;
+}
+.swiper-pagination-bullet {
+  border-radius: 30px;
+  font-family: "Montserrat", sans-serif;
+  margin: 4px;
+  width: 120px;
+  height: 60px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 16px;
+  padding-top: 30px;
+  color: #000;
+  opacity: 1;
+  background: #ffff00;
+}
+.swiper-pagination-bullet-active {
+  color: #fff;
+  background: #007aff;
+}
+
+/* above swiper effect */
+
+#headpart {
+  width: 100%;
+  height: 100px;
+}
+
+.instruction {
+  color: white;
+  width: 94%;
+  margin: 0px auto;
+}
+.instruction ol {
+  text-align: justify;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+.instruction ol li {
+  text-align: justify;
+  font-family: "Montserrat", sans-serif;
+}
+.instruction ul li {
+  text-align: justify;
+  font-family: "Montserrat", sans-serif;
+  list-style-type: none;
+}
+.instruction ul div {
+  margin: 20px;
+  text-align: justify;
+  font-family: "Montserrat", sans-serif;
+}
+.instruction .done {
+  color: #ccff33;
+}
+.instruction .notDone {
+  color: #ff9900;
+}
+table {
+  margin: auto;
+  width: 94%;
+  height: 200px;
+}
+
+button {
+  width: 100px;
+  font-size: 15px;
+  float: right;
+  margin-right: 50px;
+  font-family: "Itim", cursive;
+}
+
+.no-data {
+  width: 92%;
+  margin: auto;
+  height: auto;
+}
+.no-data p {
+  color: black;
+  font-family: "Krub", sans-serif;
+}
+
+#tables a {
+  font-size: 20px;
+  font-family: "Source Code Pro", monospace;
+}
+#tables h2 {
+  margin-left: 18px;
+}
+
+#tables {
+  background: #cce6ff;
+  margin: 0px auto;
+  width: 600px;
+  height: auto;
+  margin-top: 70px;
+  border-radius: 20px;
+  box-shadow: 4px 12px 30px black;
+}
+
+table,
+th,
+td {
+  text-align: center;
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-family: "Source Code Pro", monospace;
+}
+
+#infopart {
+  margin-top: 0px;
+  color: black;
+}
+#infopart h2 {
+  color: black;
+  font-family: "Handlee", cursive;
+}
+#infopart p {
+  color: black;
+  font-size: 18px;
+  margin-left: 10%;
+  font-family: "Handlee", cursive;
+}
+#infopart h1 {
+  color: white;
+  margin-left: 4%;
+  font-family: "Itim", cursive;
+}
+#infopart h1 p {
+  font-size: 16px;
+}
+/* .youremail{
+        height: 50px;
+    }
+    .youremail h1{
+        float: left;
+    } */
+/* #infopart p{
+        font-size: 16px;
+    } */
+@media screen and (max-width: 900px) {
+  .swiper-pagination-bullet {
+    margin: 4px;
+    width: 120px;
+    height: 60px;
+    line-height: 20px;
+    font-size: 16px;
+    padding-top: 30px;
+  }
+  #headpart {
+    width: 100%;
+    height: 100px;
+  }
+  .instruction {
+    color: white;
+    width: 94%;
+    margin: 0px auto;
+  }
+  .instruction ol li {
+    font-family: "Montserrat", sans-serif;
+  }
+  table {
+    width: 94%;
+    height: 200px;
+  }
+
+  #tables {
+    margin: 0px auto;
+    width: 500px;
+    margin-top: 70px;
+  }
+
+  button {
+    margin-right: 100px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .swiper-pagination-bullet {
+    margin: 4px;
+    width: 80px;
+    height: 40px;
+    line-height: 20px;
+    font-size: 14px;
+    padding-top: 20px;
+  }
+  #headpart {
+    width: 100%;
+    height: 100px;
+  }
+  .instruction {
+    color: white;
+    width: 94%;
+    margin: 0px auto;
+  }
+  .instruction ol li {
+    font-family: "Montserrat", sans-serif;
+  }
+  table {
+    width: 94%;
+    height: 200px;
+  }
+
+  #tables {
+    margin: 0px auto;
+    width: 370px;
+    margin-top: 60px;
+  }
+
+  button {
+    margin-right: 70px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .swiper-container {
+    margin: 220px auto 0px auto;
+  }
+  .swiper-pagination {
+    margin: -120px 0px 0px 0%;
+  }
+  .swiper-pagination-bullet {
+    margin: 0px 0px 6px 14%;
+    width: 36%;
+    height: 40px;
+    line-height: 20px;
+    font-size: 14px;
+    padding: 6px 0px 6px 0px;
+  }
+  #headpart {
+    width: 100%;
+    height: 100px;
+  }
+  .instruction {
+    color: white;
+    width: 94%;
+    margin: 0px auto;
+  }
+  .instruction ol li {
+    font-family: "Montserrat", sans-serif;
+  }
+  table {
+    width: 94%;
+    height: 200px;
+  }
+
+  #tables {
+    margin: 0px auto;
+    width: 320px;
+    margin-top: 60px;
+  }
+
+  button {
+    margin-right: 30px;
+  }
+}
+
+@media screen and (max-width: 290px) {
+  .swiper-pagination-bullet {
+    margin: 4px;
+    width: 80px;
+    height: 40px;
+    line-height: 20px;
+    font-size: 14px;
+    padding-top: 20px;
+  }
+  #headpart {
+    width: 100%;
+    height: 100px;
+  }
+  .instruction {
+    color: white;
+    width: 94%;
+    margin: 0px auto;
+  }
+  .instruction ol li {
+    font-family: "Montserrat", sans-serif;
+  }
+
+  table {
+    width: 79%;
+    height: 200px;
+  }
+
+  #infopart {
+    margin-top: 100px;
+  }
+
+  #tables {
+    margin: 0px auto;
+    width: 300px;
+    margin-top: 50px;
+  }
+}
