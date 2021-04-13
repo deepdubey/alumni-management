@@ -5,7 +5,7 @@
 
 (B) Instruction to connect to database
 
-- Go in php folder of folder which you extracted
+- Go in php folder of your project folder
 - Inside php folder find login_detail.php inside that modify only following( line 5 ) 
 	$database = "database_name_which_you_created";
 	
